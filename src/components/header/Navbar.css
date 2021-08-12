@@ -1,0 +1,27 @@
+.Navbar {
+    /* transform: translate(10%, 10%); */
+}
+
+.Navbar .brand {
+    width: 5vw;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+.Navbar .brand img {
+    width: 100%;
+}
+.Navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar .nav-links ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.Navbar .nav-links li {
+    color: #fff;
+    margin: 0 1rem;
+}
