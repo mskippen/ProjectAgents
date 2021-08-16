@@ -42,11 +42,11 @@ THEN you are presented with text and an icon links to the business owners GitHub
 
 The following animation shows the web application's appearance and functionality:
 
-![Landing Page.](.\src\images\home.PNG)
+![Landing Page.](./src/images/home.PNG)
 
-![Services.](.\src\images\services.PNG)
+![Services.](./src/images/services.PNG)
 
-![Works.](.\src\images\works.PNG)
+![Works.](./src/images/works.PNG)
 
 - - -
 © 2021 Project Agents 2021. All Rights Reserved.
