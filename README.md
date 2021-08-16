@@ -2,7 +2,9 @@
 
 ## My Portfolio
 
-Please view my company portfolio using React here on GitHub Pages. You can also view my company portfolio page on Github here.
+Please view my company portfolio using React [here](https://projectify-marketing-app.herokuapp.com/)
+on GitHub Pages and the portfolio repository can be viewed here: [Project Agents](https://github.com/mskippen/projectagents).
+
 
 ## User Story
 
@@ -40,11 +42,11 @@ THEN you are presented with text and an icon links to the business owners GitHub
 
 The following animation shows the web application's appearance and functionality:
 
-![Landing Page.](src\images\home.PNG)
+![Landing Page.](.\src\images\home.PNG)
 
-![Services.](src\images\services.PNG)
+![Services.](.\src\images\services.PNG)
 
-![Works.](src\images\works.PNG)
+![Works.](.\src\images\works.PNG)
 
 - - -
 © 2021 Project Agents 2021. All Rights Reserved.
