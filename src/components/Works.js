@@ -15,7 +15,7 @@ const Works = () => {
       subTitle: "Full corporate campaign",
       description:
         "A mix of innovative strategy, creative and disruptive implementation, across all platforms including brand, CGIâ€™s, brochure, website UX design and development.",
-      urlTitle: "What's In My Pantry",
+      urlTitle: "MDG Website",
       url: "www.mdgl.com.au",
       bgCode: "mdg-bg",
     },
@@ -31,7 +31,7 @@ const Works = () => {
     },
     {
       img: projectifyLogo,
-      title: "PROJECTIFYMARCOMM STUDIO ASSISTAN",
+      title: "PROJECTIFY",
       subTitle: "Web design and development",
       description:
         "An all-in-one marketing lead generation tool for freelance and small-to-medium business owners. The app helps owners to manage their client’s in their online business, digital marketing and advertising campaigns, ‘projecting’ user ad clicks and call-to-action registrations on client’s Landing Page, Facebook and Instagram social media platforms. The application also manages and displays performance data of each campaign by full-month periods.",
@@ -52,10 +52,10 @@ const Works = () => {
     {
       img: assanaLogo,
       title: "Assana, Broadbeach",
-      subTitle: "Full property development campaign",
+      subTitle: "Assana Website",
       description:
         "A mix of innovative strategy, creative and disruptive implementation, across all platforms including brand, CGI’s, brochure, website UX design and development.            ",
-      urlTitle: "Full property development campaign",
+      urlTitle: "Assana Website",
       url: "www.assanabroadbeach.com.",
       bgCode: "assana-bg",
     },

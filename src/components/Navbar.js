@@ -1,6 +1,6 @@
 import React from "react";
 import brandLogo from "../images/pagents-black.png";
-import { IoLogoLinkedin, IoNewspaperSharp } from "react-icons/io5";
+import { IoLogoLinkedin} from "react-icons/io5";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -11,16 +11,40 @@ const Navbar = () => {
           <img src={brandLogo} alt="Brand logo" />
         </div>
         <div className="nav-links">
-            <ul>
-                <li><Link to="home">Home</Link></li>
-                <li><Link to="about">About</Link></li>
-                <li><Link to="services">Our Services</Link></li>
-                <li><Link to="works">Work</Link></li>
-                <li><Link to="contact">Contact</Link></li>
-            </ul>
+          <ul>
+            <li>
+              <Link to="home" smooth={true}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about" smooth={true}>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="services" smooth={true}>
+                Our Services
+              </Link>
+            </li>
+            <li>
+              <Link to="works" smooth={true}>
+                Work
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" smooth={true}>
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
         <div className="nav-icon">
-            <span><IoLogoLinkedin size={30}/></span>
+          <a href="https://www.linkedin.com/in/meganskippen/">
+            <span>
+              <IoLogoLinkedin size={30} />
+            </span>
+          </a>
         </div>
       </nav>
       <header>

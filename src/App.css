@@ -15,9 +15,9 @@ h5 {
   margin-top: 1rem;
 }
 .wrapper {
-    width: 70%;
-    margin: 0 auto;
-    padding: 3.5rem 0;
+  width: 70%;
+  margin: 0 auto;
+  padding: 3.5rem 0;
 }
 .d-grid {
   display: grid;
@@ -57,6 +57,13 @@ img {
 .Navbar .nav-links li {
   margin: 0 3rem;
   font-family: "Belleza", sans-serif;
+  cursor: pointer;
+  transition: all 250ms ease;
+}
+.Navbar .nav-links li:hover {
+  font-size: 13px;
+  opacity: 0.5;
+  transform: skew(-4deg);
 }
 /* END OF NAV */
 /* HERO STYLING */
@@ -125,25 +132,25 @@ img {
   margin: 0 auto;
 }
 .Services .wrapper h3 {
-    font-size: 28px;
+  font-size: 28px;
 }
 .Services .wrapper h4 {
-    text-transform: uppercase;
-    font-size: 16px;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 .Services .text-block {
-    margin: 2rem 0;
+  margin: 2rem 0;
 }
 .Services .d-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .Services .d-grid ul {
-    list-style: none;
-    margin-top: 0.8rem;
+  list-style: none;
+  margin-top: 0.8rem;
 }
 .Services .d-grid li {
-    line-height: 1.9;
+  line-height: 1.9;
 }
 /* END OF SERVICES */
 /* WORKS STYLING */
@@ -168,7 +175,8 @@ img {
   margin-bottom: 2.5rem;
   margin-top: 5px;
 }
-.Works .img-block, .Works .text-block {
+.Works .img-block,
+.Works .text-block {
   width: 100%;
   position: relative;
 }
@@ -180,7 +188,7 @@ img {
   top: 10%;
   margin-left: 2rem;
 }
-.Works .content a {
+.Works .content a, .About a {
   color: #fff;
   padding: 1rem 1rem;
   display: block;
@@ -215,7 +223,7 @@ img {
   background-color: rgb(62, 62, 62);
 }
 .marcomm-bg {
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 }
 .projectify-bg .img-container {
   top: 0 !important;
@@ -231,7 +239,8 @@ img {
   transform: translateX(-100%);
   transition: transform 1s ease;
 }
-.enter-active.enter-next, .enter-active.enter-prev {
+.enter-active.enter-next,
+.enter-active.enter-prev {
   transform: translateX(0);
   transition: transform 1s ease;
 }
@@ -252,7 +261,8 @@ img {
   margin-bottom: 1rem;
   display: block;
 }
-.Contact input,.Contact textarea {
+.Contact input,
+.Contact textarea {
   padding: 0.7rem 1rem;
   width: 100%;
 }

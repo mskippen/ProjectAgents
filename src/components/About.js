@@ -12,6 +12,15 @@ const About = () => {
           implement brand strategies, through our combined know-how in word and
           image crafting and digital intelligence.
         </p>
+        <p>
+          Project Agents is lead by Megan Skippen.{" "}
+          <a
+            href="https://drive.google.com/drive/folders/1SOfRj2YWUkDs34CWaS83TlAgd10WyhQu?usp=sharing"
+            target="_blank"
+          >
+            View Megan's experience here
+          </a>
+        </p>
       </div>
     </section>
   );
