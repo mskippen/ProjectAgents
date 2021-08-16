@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mskippen/projectagents/static/css/main.5b8ee500.chunk.css",
+    "main.js": "/mskippen/projectagents/static/js/main.b5537784.chunk.js",
+    "main.js.map": "/mskippen/projectagents/static/js/main.b5537784.chunk.js.map",
+    "runtime-main.js": "/mskippen/projectagents/static/js/runtime-main.d9167c9f.js",
+    "runtime-main.js.map": "/mskippen/projectagents/static/js/runtime-main.d9167c9f.js.map",
+    "static/js/2.5dd9023f.chunk.js": "/mskippen/projectagents/static/js/2.5dd9023f.chunk.js",
+    "static/js/2.5dd9023f.chunk.js.map": "/mskippen/projectagents/static/js/2.5dd9023f.chunk.js.map",
+    "static/js/3.2a9fa532.chunk.js": "/mskippen/projectagents/static/js/3.2a9fa532.chunk.js",
+    "static/js/3.2a9fa532.chunk.js.map": "/mskippen/projectagents/static/js/3.2a9fa532.chunk.js.map",
+    "index.html": "/mskippen/projectagents/index.html",
+    "static/css/main.5b8ee500.chunk.css.map": "/mskippen/projectagents/static/css/main.5b8ee500.chunk.css.map",
+    "static/js/2.5dd9023f.chunk.js.LICENSE.txt": "/mskippen/projectagents/static/js/2.5dd9023f.chunk.js.LICENSE.txt",
+    "static/media/assana-dusk.2343b16b.png": "/mskippen/projectagents/static/media/assana-dusk.2343b16b.png",
+    "static/media/App.css": "/mskippen/projectagents/static/media/hero-page.5ae45edb.png",
+    "static/media/home-pool.877b1594.jpg": "/mskippen/projectagents/static/media/home-pool.877b1594.jpg",
+    "static/media/logo_wimp.64e33e94.jpg": "/mskippen/projectagents/static/media/logo_wimp.64e33e94.jpg",
+    "static/media/mdg-logo.d0b49fee.png": "/mskippen/projectagents/static/media/mdg-logo.d0b49fee.png",
+    "static/media/pagents-black.c4321b16.png": "/mskippen/projectagents/static/media/pagents-black.c4321b16.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9167c9f.js",
+    "static/js/2.5dd9023f.chunk.js",
+    "static/css/main.5b8ee500.chunk.css",
+    "static/js/main.b5537784.chunk.js"
+  ]
+}
