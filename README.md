@@ -2,7 +2,7 @@
 
 ## My Portfolio
 
-Please view my company portfolio using React [here](https://projectify-marketing-app.herokuapp.com/)
+Please view my company portfolio using React [here](https://mskippen.github.io/projectagents/)
 on GitHub Pages and the portfolio repository can be viewed here: [Project Agents](https://github.com/mskippen/projectagents).
 
 
