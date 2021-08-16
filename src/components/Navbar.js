@@ -1,8 +1,6 @@
 import React from "react";
-import brandLogo from "../images/pa-logo-black.png";
+import brandLogo from "../images/pagents-black.png";
 import { IoLogoLinkedin, IoNewspaperSharp } from "react-icons/io5";
-import { MdEmail } from "react-icons/md";
-import { AiFillGithub } from "react-icons/ai";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -14,11 +12,11 @@ const Navbar = () => {
         </div>
         <div className="nav-links">
             <ul>
-                <li><Link>Home</Link></li>
-                <li><Link>About</Link></li>
-                <li><Link>Our Services</Link></li>
-                <li><Link>Work</Link></li>
-                <li><Link>Contact</Link></li>
+                <li><Link to="home">Home</Link></li>
+                <li><Link to="about">About</Link></li>
+                <li><Link to="services">Our Services</Link></li>
+                <li><Link to="works">Work</Link></li>
+                <li><Link to="contact">Contact</Link></li>
             </ul>
         </div>
         <div className="nav-icon">

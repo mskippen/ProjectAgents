@@ -23,6 +23,11 @@ h5 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 img {
   width: 100%;
 }
@@ -146,8 +151,56 @@ img {
   background: #000;
   color: #fff;
 }
+.Works .img-block img {
+  /* height: 100%; */
+}
+.Works .img-block .img-container {
+  width: 50%;
+  height: 13%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -50%;
+  margin: auto;
+  bottom: 0;
+}
+.Works p:nth-of-type(1) {
+  margin-bottom: 2.5rem;
+  margin-top: 5px;
+}
 .Works .img-block, .Works .text-block {
   width: 100%;
+  position: relative;
+}
+.Works .img-block {
+  border: 1px solid #fff;
+}
+.Works .text-block .content {
+  position: absolute;
+  top: 10%;
+  margin-left: 2rem;
+}
+.Works .content a {
+  color: #fff;
+  padding: 1rem 1rem;
+  display: block;
+  background: transparent;
+  width: fit-content;
+  border: 1px solid #fff;
+  text-decoration: none;
+  margin-top: 2rem;
+  font-family: "Belleza", sans-serif;
+}
+.Works .carousel-btn {
+  position: absolute;
+  bottom: 0;
+  margin-left: 2rem;
+}
+.Works .carousel-btn span {
+  cursor: pointer;
+}
+.Works .carousel-btn span:nth-of-type(2) {
+  margin-left: 2rem;
 }
 .assana-bg {
   background-color: rgb(140, 183, 202);
@@ -163,4 +216,61 @@ img {
 }
 .marcomm-bg {
   background-color: rgb(0,0,0);
+}
+.projectify-bg .img-container {
+  top: 0 !important;
+}
+/* CAROUSEL ANIMATION */
+.leave {
+  transform: translateX(0);
+}
+.enter-next {
+  transform: translateX(100%);
+}
+.enter-prev {
+  transform: translateX(-100%);
+  transition: transform 1s ease;
+}
+.enter-active.enter-next, .enter-active.enter-prev {
+  transform: translateX(0);
+  transition: transform 1s ease;
+}
+.leave-active-next {
+  transform: translateX(-100%);
+  transition: transform 1s ease;
+}
+.leave-active-next {
+  transform: translateX(100%);
+  transition: transform 1s ease;
+}
+/* END OF WORKS */
+/* CONTACT STYLING */
+.Contact .form-group {
+  margin-bottom: 1.1rem;
+}
+.Contact label {
+  margin-bottom: 1rem;
+  display: block;
+}
+.Contact input,.Contact textarea {
+  padding: 0.7rem 1rem;
+  width: 100%;
+}
+.Contact form button {
+  padding: 0.7rem 2.7rem;
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+/* END OF CONTACT STYLE */
+/* FOOTER STYLES */
+.Footer {
+  background-color: #000;
+}
+.Footer p {
+  text-align: center;
+  color: #fff;
 }
